@@ -6,12 +6,12 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-setup(name='MeshLabXML',
+setup(name='archaeomat.meshlabxml',
       version='2018.3',
       description='Create and run MeshLab XML scripts',
       long_description=long_description,
       long_description_content_type='text/markdown',
-      url='https://github.com/3DLIRIOUS/MeshLabXML',
+      url='https://github.com/winkelband/MeshLabXML',
       author='3DLirious, LLC',
       author_email='3DLirious@gmail.com',
       license='LGPL-2.1',
