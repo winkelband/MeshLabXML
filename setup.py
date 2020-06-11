@@ -6,7 +6,7 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-setup(name='archaeomat.meshlabxml',
+setup(name='archaeomat-utils-meshlabxml',
       version='2018.3',
       description='Create and run MeshLab XML scripts',
       long_description=long_description,
