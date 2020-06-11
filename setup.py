@@ -15,5 +15,5 @@ setup(name='archaeomat.meshlabxml',
       author='3DLirious, LLC',
       author_email='3DLirious@gmail.com',
       license='LGPL-2.1',
-      packages=['meshlabxml'],
+      packages=['archaeomat.meshlabxml'],
       include_package_data=True)

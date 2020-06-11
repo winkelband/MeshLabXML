@@ -1,0 +1,14 @@
+# general things to ignore
+build/
+dist/
+venv/
+deploy-build
+run-build
+.pytest_cache/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*.swp
+*~
